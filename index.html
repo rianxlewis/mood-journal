@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Daily Mood Journal</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <header class="header-nav">
+                <nav>
+                    <ul>
+                        <li><a href="#">View Previous Entries</a></li>
+                    </ul>
+                </nav>
+            <h1>Daily Mood Journal</h1>
+            <h3>...a space to let your thoughts flow free</h3>
+            <h3>?/??/????</h3>
+            </header>
+        </header>
+
+        <div class="content-wrapper">
+            <h3>🌱 Today's Prompt</h3>
+            <section class="section prompt-section">
+                <h5>Reflection Question</h5>
+                <p>Describe your ideal day. What elements could you incorporate into tomorrow?</p>
+            </section>
+            <h3>🎭 How are you feeling today?</h3>
+            <section class="section mood-section">
+                    <button class="mood-button" data-mood="depressed">😞 Depressed</button>
+                    <button class="mood-button" data-mood="sad">😢 Sad</button>
+                    <button class="mood-button" data-mood="neutral">😐 Neutral</button>
+                    <button class="mood-button" data-mood="happy">😊 Happy</button>
+                    <button class="mood-button" data-mood="excited">😃 Excited</button>
+                    
+            </section>
+            <h3>✍️ Your Thoughts</h3>
+            <section class="section thoughts-section">
+                <textarea class="thoughts-textarea" placeholder="Write your thoughts here..."></textarea>
+            </section>
+
+            <div class="actions">
+                <button type="submit" class="submit-button">Save My Thoughts</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Your Journey</h2>
+            </div>
+            <div class="modal-body">
+                <p>Your journey begins with the first entry. Start reflecting to see your thoughts here.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
